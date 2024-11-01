@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "firebase emulators:start --only firestore"
+    "start": "apt-get update && apt-get install -y default-jdk && firebase emulators:start --only firestore"
   },
   "keywords": [],
   "author": "",
