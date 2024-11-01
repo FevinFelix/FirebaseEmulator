@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "firebase emulators:start --only firestore --host 0.0.0.0"
+    "start": "firebase emulators:start --only firestore"
   },
   "keywords": [],
   "author": "",

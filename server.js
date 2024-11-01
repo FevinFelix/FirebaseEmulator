@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8080;
 
 // Endpoint to start the Firestore emulator
 app.get('/start-emulator', (req, res) => {
-    exec('firebase emulators:start --only firestore --host 0.0.0.0', (error, stdout, stderr) => {
+    exec('firebase emulators:start --only firestore', (error, stdout, stderr) => {
         if (error) {
             console.error(`Error starting emulator: ${error}`);
             return res.status(500).send('Error starting emulator');
