@@ -1,0 +1,18 @@
+{
+  "name": "firebaseemulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase emulators:start --only firestore --host 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "firebase": "^11.0.1",
+    "firebase-admin": "^12.7.0",
+    "nodemon": "^3.1.7"
+  }
+}
